@@ -2,8 +2,8 @@
 
 $censured=$_POST["censured"];
 $paragraph=$_POST["paragraph"];
-
-$censored_paragraph= str_ireplace( $censured ,'***', $paragraph);
+// metto ireplace
+$censored_paragraph= str_replace( $censured ,'***', $paragraph);
 
 ?>
 

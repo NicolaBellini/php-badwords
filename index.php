@@ -15,7 +15,7 @@
   <title>php badwords</title>
 </head>
 <body>
-  <div class="containe m-5 ">
+  <div class="containe m-5">
    
     <form action="landing.php" method="post">
         
