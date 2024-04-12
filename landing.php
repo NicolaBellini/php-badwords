@@ -2,7 +2,7 @@
 
 $censured=$_POST["censured"];
 $paragraph=$_POST["paragraph"];
-// metto ireplace
+// metto replace
 $censored_paragraph= str_replace( $censured ,'***', $paragraph);
 
 ?>
@@ -25,7 +25,9 @@ $censored_paragraph= str_replace( $censured ,'***', $paragraph);
    
     <h1>Parola da censurare: <?php echo $censured; ?></h1>
     <h2>paragrafo: <?php echo $paragraph; ?></h2>
+    <p>lunghezza paragrafo: <?php echo strlen($paragraph) ?></p>
     <h2>paragrafo censurato: <?php echo $censored_paragraph; ?></h2>
+    <p>lunghezza paragrafo: <?php echo strlen( $censored_paragraph) ?></p>
 
     <a href="index.php">vai a landing</a>
     
