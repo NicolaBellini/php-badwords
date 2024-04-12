@@ -1,5 +1,9 @@
 <?php
+
 $censured=$_POST["censured"];
+$paragraph=$_POST["paragraph"];
+
+$censored_paragraph= str_ireplace( $censured ,'***', $paragraph);
 
 ?>
 
@@ -19,7 +23,9 @@ $censured=$_POST["censured"];
 
   <div class="container">
    
-    <h1> <?php echo $censured; ?></h1>
+    <h1>Parola da censurare: <?php echo $censured; ?></h1>
+    <h2>paragrafo: <?php echo $paragraph; ?></h2>
+    <h2>paragrafo: <?php echo $censored_paragraph; ?></h2>
 
     <a href="index.php">vai a landing</a>
     
