@@ -1,3 +1,8 @@
+<?php
+$censured=$_POST["censured"];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +15,17 @@
   <title>php badwords</title>
 </head>
 <body>
-  
+
+
+  <div class="container">
+   
+    <h1> <?php echo $censured; ?></h1>
+
+    <a href="index.php">vai a landing</a>
+    
+  </div>
+
+
+
 </body>
 </html>
