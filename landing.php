@@ -20,8 +20,7 @@ $censored_paragraph= str_replace( $censured ,'***', $paragraph);
 </head>
 <body>
 
-
-  <div class="container">
+  <div class="container m-5 ">
    
     <h1>Parola da censurare: <?php echo $censured; ?></h1>
     <h2>paragrafo: <?php echo $paragraph; ?></h2>
@@ -29,11 +28,9 @@ $censored_paragraph= str_replace( $censured ,'***', $paragraph);
     <h2>paragrafo censurato: <?php echo $censored_paragraph; ?></h2>
     <p>lunghezza paragrafo: <?php echo strlen( $censored_paragraph) ?></p>
 
-    <a href="index.php">vai a landing</a>
+    <a href="index.php">vai a home</a>
     
   </div>
-
-
 
 </body>
 </html>

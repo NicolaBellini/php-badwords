@@ -36,7 +36,7 @@
     
    
     </form>
-    <a href="landing.php">vai a landing</a>
+    
     
   </div>
 </body>
