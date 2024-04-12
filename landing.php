@@ -25,7 +25,7 @@ $censored_paragraph= str_ireplace( $censured ,'***', $paragraph);
    
     <h1>Parola da censurare: <?php echo $censured; ?></h1>
     <h2>paragrafo: <?php echo $paragraph; ?></h2>
-    <h2>paragrafo: <?php echo $censored_paragraph; ?></h2>
+    <h2>paragrafo censurato: <?php echo $censored_paragraph; ?></h2>
 
     <a href="index.php">vai a landing</a>
     
